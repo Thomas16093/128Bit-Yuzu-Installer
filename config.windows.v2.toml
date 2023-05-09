@@ -25,5 +25,5 @@ default = true
         repo = "pineappleEA/pineapple-src"
     [[packages.shortcuts]]
     name = "yuzu Early Access"
-    relative_path = "yuzu-early-access/yuzu.exe"
+    relative_path = "yuzu-windows-msvc-early-access/yuzu.exe"
     description = "Launch yuzu Early Access"
