@@ -20,9 +20,9 @@ description = "Preview release with the newest features for Free by 128BitBay!"
 default = true
     [packages.source]
     name = "github"
-    match = "^yuzu-early-access-EA[0-9]*.zip$"
+    match = "^Windows-Yuzu-EA-[0-9]*.zip$"
         [packages.source.config]
-        repo = "Kryptuq/Yuzu-Early-Access-files"
+        repo = "pineappleEA/pineapple-src"
     [[packages.shortcuts]]
     name = "yuzu Early Access"
     relative_path = "yuzu-early-access/yuzu.exe"
