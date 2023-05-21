@@ -55,7 +55,7 @@ jobs:
       shell: pwsh
 
     - name: Build
-      run: cargo build --verbose
+      run: cargo build --release --verbose
       
     - uses: actions/upload-artifact@v3
       with:
